@@ -1,0 +1,137 @@
+body {
+    background-color: rgb(11, 37, 69);
+    color: white;
+    font-family: 'Times New Roman', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header h1 {
+    border-top: 1px solid black;
+    margin: 0;
+    padding: 60px;
+    text-align: center;
+}
+
+.welcome {
+    font-size: 75px;
+    padding-top: 275px;
+}
+
+nav img {
+    float: right;
+    position: relative;
+    top: -8px;
+    width: 15%;
+}
+
+/* Nav */
+
+header nav {
+    background-color: rgb(19, 49, 92);
+    padding: 20px;
+}
+
+header nav ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 35px;
+}
+
+header nav ul li a:hover {
+    color: rgb(0, 96, 0);
+}
+
+/* SECTION */
+
+/* All */
+
+section {
+    height: 500px;
+    padding-top: 75px;
+}
+
+section p {
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Special */
+
+a {
+    color: white;
+    font-style: uppercase;
+    text-decoration: none;
+}
+
+.learn, .links {
+    font-size: 40px;
+}
+
+.learn a:hover, .links a:hover {
+    color: rgb(0, 96, 0);
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    justify-content: center;
+}
+
+/* Work */
+
+.work {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+
+.work figure {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 400px;
+}
+
+.work figure img {
+    border: 1px solid black;
+    box-shadow: gray 0px 0px 5px;
+    width: 400px;
+}
+
+/* Futur */
+
+section ul li{
+    margin-bottom: 25px;
+    text-align: center;
+    list-style-type: none;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    bottom: 0px;
+    font-size: 14px;
+    padding: 4px 10px;
+    position: fixed;
+    width: 100%;
+}
